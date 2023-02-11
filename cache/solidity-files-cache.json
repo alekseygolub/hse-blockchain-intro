@@ -1,0 +1,76 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/goluba/Documents/HSE/hse-blockchain-intro/contracts/Token.sol": {
+      "lastModificationDate": 1676114546554,
+      "contentHash": "7ff4522d06100f4cfd36ac96d834408d",
+      "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    },
+    "/Users/goluba/Documents/HSE/hse-blockchain-intro/contracts/SimpleERC20Token.sol": {
+      "lastModificationDate": 1676119510657,
+      "contentHash": "d6e9def6a8d395fbd815225e73cb825a",
+      "sourceName": "contracts/SimpleERC20Token.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "ERC20Interface",
+        "SimpleERC20Token"
+      ]
+    }
+  }
+}
