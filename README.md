@@ -1,4 +1,4 @@
-# HSE AMI 2023 "Blockchain-Intro" Course
+# HSE AMI 2023 "BlockChain-Intro" Course
 
 ### SimpleERC20Token
 It is a simple ERC20 token with minting support
