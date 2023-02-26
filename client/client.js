@@ -7,7 +7,7 @@ console.log(url);
 
 const web3 = new Web3(new Web3.providers.HttpProvider(url));
 
-const contractAddress = '0x06E2Fd86bc89F40e036caCeD12a1cb23CADB3014';
+const contractAddress = '0x3dE824069f1401eC32DB0be4Bd3eB793D720023F';
 
 let myContract = new web3.eth.Contract([
     {
@@ -163,18 +163,7 @@ let myContract = new web3.eth.Contract([
 ], contractAddress);
 
 const myAddress = '0x0479d5d8774BfBdf8B151C14C925493F2234496B';
-myContract.methods.setValue(myAddress, 'teststr', 15, false).call();
+// myContract.methods.setValue(myAddress, 'teststr', 15, false).send({from: myAddress}, function(err,data){ console.log(data); });
 myContract.methods.getValue(myAddress).call().then(console.log);
-myContract.methods.deleteValue(myAddress).call().then(console.log);
 
-myContract.getPastEvents(
-    'AllEvents', 
-    {
-        filter: { '_caller': myAddress},
-        fromBlock: 0,
-        toBlock: 'latest'
-    },
-    async (err, events) => { console.log(events)}
-);
-
-myContract.getPastEvents('AllEvents', {}, async (err, events) => { console.log(events)});
+myContract.getPastEvents('allEvents', { fromBlock: 1 }).then(console.log)
