@@ -5,10 +5,10 @@ async function main() {
   
     console.log("Account balance:", (await deployer.getBalance()).toString());
   
-    const Token = await ethers.getContractFactory("SimpleERC20Token");
+    const Token = await ethers.getContractFactory("MyMapper");
     const token = await Token.deploy();
   
-    console.log("Token address:", token.address);
+    console.log("Contract address:", token.address);
 }
   
 main()

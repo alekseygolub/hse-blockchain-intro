@@ -71,6 +71,41 @@
         "ERC20Interface",
         "SimpleERC20Token"
       ]
+    },
+    "/Users/goluba/Documents/HSE/hse-blockchain-intro/contracts/MyMapper.sol": {
+      "lastModificationDate": 1677415640281,
+      "contentHash": "fa9ac6a79c91b0c83e8df8b99615b3a2",
+      "sourceName": "contracts/MyMapper.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "MyMapper"
+      ]
     }
   }
 }
