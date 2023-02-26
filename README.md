@@ -4,6 +4,7 @@
 
 ### MyMapper Contract
 Simple mapper contract with client on JS `client/client.js` and `scripts/sendTransaction.js`
+
 Contract was deployed to GOERLI testnet with address `0x3dE824069f1401eC32DB0be4Bd3eB793D720023F`
 
 To run client:
@@ -11,6 +12,7 @@ To run client:
 2. Run `node client.js`
 
 To call mutable method use `npx hardhat run scripts/sendTransaction.js --network goerli`
+
 example of transaction - https://goerli.etherscan.io/tx/0xc7dd2e2eafda661e82798a6226c31083740c383d79a265514562f0dee19beedb
 
 ### SimpleERC20Token
